@@ -38,4 +38,4 @@
 
 ## License
 
-[MIT License](https://github.com/exuanbo/homebrew-autoremove/blob/master/LICENSE) © 2020 [Exuanbo](https://github.com/exuanbo)
+[MIT License](https://github.com/exuanbo/node-ts-boilerplate/blob/main/LICENSE) © 2020 [Exuanbo](https://github.com/exuanbo)
