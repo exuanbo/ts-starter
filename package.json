@@ -9,7 +9,7 @@
     "build": "rimraf dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist/types",
     "lint": "eslint \"**/*.{js,ts}\"",
     "format": "prettier --write .",
-    "test": "yarn format && yarn lint && yarn build"
+    "test": "npm run format && npm run lint && npm run build"
   },
   "repository": {
     "type": "git",
