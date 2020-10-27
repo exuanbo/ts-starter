@@ -6,7 +6,7 @@
   "module": "dist/index.es.js",
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist/types",
+    "build": "rimraf dist && rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist/types",
     "lint": "eslint \"**/*.{js,ts}\"",
     "format": "prettier --write ."
   },
