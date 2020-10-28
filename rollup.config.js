@@ -4,6 +4,7 @@ const pkg = require('./package.json')
 module.exports = {
   input: 'src/index.ts',
   plugins: [typescript()],
+  external: [],
   output: [
     {
       file: pkg.main,
