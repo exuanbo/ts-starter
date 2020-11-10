@@ -1,4 +1,4 @@
-# node-ts-boilerplate
+# node-ts-starter
 
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovatebot.com/)
 
@@ -30,4 +30,4 @@
 
 ## License
 
-[MIT License](https://github.com/exuanbo/node-ts-boilerplate/blob/main/LICENSE) © 2020 [Exuanbo](https://github.com/exuanbo)
+[MIT License](https://github.com/exuanbo/node-ts-starter/blob/main/LICENSE) © 2020 [Exuanbo](https://github.com/exuanbo)
