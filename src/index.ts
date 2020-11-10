@@ -1,1 +1,1 @@
-export const salute = (): void => console.log('Hello World')
+export const salute = (): string => 'Hello World'
