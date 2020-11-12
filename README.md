@@ -2,6 +2,20 @@
 
 [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg?style=flat-square)](https://renovatebot.com/)
 
+## Usage
+
+- Simply click `Use this template`.
+- Create a shell function. Example:
+
+```bash
+function node_ts_starter() {
+    git clone https://github.com/exuanbo/node-ts-starter.git $1
+    cd $1
+    rm -rf .git
+    git init
+}
+```
+
 ## What's included?
 
 - TypeScript v4
