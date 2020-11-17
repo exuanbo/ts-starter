@@ -44,4 +44,4 @@ function ts_starter() {
 
 ## License
 
-[MIT License](https://github.com/exuanbo/node-ts-starter/blob/main/LICENSE) © 2020 [Exuanbo](https://github.com/exuanbo)
+[MIT License](https://github.com/exuanbo/ts-starter/blob/main/LICENSE) © 2020 [Exuanbo](https://github.com/exuanbo)
