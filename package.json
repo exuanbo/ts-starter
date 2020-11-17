@@ -1,10 +1,13 @@
 {
-  "name": "node-ts-starter",
+  "name": "@exuanbo/ts-starter",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "clean": "rimraf .cache dist",
     "dts": "tsc -d --emitDeclarationOnly --declarationDir .cache",
@@ -16,15 +19,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/exuanbo/node-ts-starter.git"
+    "url": "git+https://github.com/<placeholder>.git"
   },
   "keywords": [],
   "author": "exuanbo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/exuanbo/node-ts-starter/issues"
+    "url": "https://github.com/<placeholder>/issues"
   },
-  "homepage": "https://github.com/exuanbo/node-ts-starter#readme",
+  "homepage": "https://github.com/<placeholder>#readme",
   "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-typescript": "6.1.0",
