@@ -3,7 +3,7 @@
     "target": "ES2015",
     // "jsx": "react",
     // "jsxFactory": "h",
-    // "jsxFragmentFactory": "h",
+    // "jsxFragmentFactory": "Fragment",
 
     "strict": true,
 
