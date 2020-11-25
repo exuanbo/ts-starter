@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/<placeholder>.git"
+    "url": "git+https://github.com/exuanbo/ts-starter.git"
   },
   "keywords": [],
   "author": "exuanbo",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/<placeholder>/issues"
+    "url": "https://github.com/exuanbo/ts-starter/issues"
   },
-  "homepage": "https://github.com/<placeholder>#readme",
+  "homepage": "https://github.com/exuanbo/ts-starter#readme",
   "dependencies": {},
   "devDependencies": {
     "@rollup/plugin-typescript": "6.1.0",
