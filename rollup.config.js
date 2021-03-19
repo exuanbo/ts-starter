@@ -4,7 +4,7 @@ import pkg from './package.json'
 
 export default [
   {
-    external: [...Object.keys(pkg.dependencies ?? {})],
+    external: [...Object.keys(pkg.dependencies || {})],
     input: 'src/index.ts',
     output: [
       {
