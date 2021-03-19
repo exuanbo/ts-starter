@@ -1,6 +1,6 @@
-import { salute } from '../src/index'
+import { greetings } from '../src/index'
 
 it('should work', () => {
-  const res = salute()
+  const res = greetings()
   expect(res).toBe('hi')
 })

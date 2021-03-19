@@ -1,1 +1,1 @@
-export const salute = (): string => 'hi'
+export const greetings = (): string => 'hi'
