@@ -6,7 +6,6 @@ export default [
   {
     external: [...Object.keys(pkg.dependencies)],
     input: 'src/index.ts',
-    plugins: [typescript()],
     output: [
       {
         file: pkg.main,
@@ -16,14 +15,15 @@ export default [
         file: pkg.module,
         format: 'es'
       }
-    ]
+    ],
+    plugins: [typescript()]
   },
   {
     input: '.cache/src/index.d.ts',
-    plugins: [dts()],
     output: {
       file: pkg.types,
       format: 'es'
-    }
+    },
+    plugins: [dts()]
   }
 ]
