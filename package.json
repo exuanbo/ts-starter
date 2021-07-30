@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/exuanbo/ts-starter#readme",
   "devDependencies": {
-    "@rollup/plugin-typescript": "8.2.3",
+    "@rollup/plugin-typescript": "8.2.5",
     "@types/jest": "26.0.24",
     "@types/node": "14.17.6",
     "jest": "26.6.3",
