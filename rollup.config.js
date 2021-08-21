@@ -19,7 +19,7 @@ export default [
     plugins: [typescript()]
   },
   {
-    input: '.cache/src/index.d.ts',
+    input: '.cache/index.d.ts',
     output: {
       file: pkg.types,
       format: 'es'
