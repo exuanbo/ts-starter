@@ -1,4 +1,4 @@
-import typescript from '@rollup/plugin-typescript'
+import esbuild from 'rollup-plugin-esbuild-transform'
 import dts from 'rollup-plugin-dts'
 import pkg from './package.json'
 
@@ -16,7 +16,12 @@ export default [
         format: 'es'
       }
     ],
-    plugins: [typescript()]
+    plugins: [
+      esbuild({
+        loader: 'ts',
+        target: 'es2017'
+      })
+    ]
   },
   {
     input: '.cache/index.d.ts',
