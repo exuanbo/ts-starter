@@ -17,10 +17,15 @@ export default [
       }
     ],
     plugins: [
-      esbuild({
-        loader: 'ts',
-        target: 'es2017'
-      })
+      esbuild([
+        {
+          loader: 'ts'
+        },
+        {
+          output: true,
+          target: 'node12'
+        }
+      ])
     ]
   },
   {
