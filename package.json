@@ -33,7 +33,7 @@
   "devDependencies": {
     "@types/jest": "27.4.0",
     "@types/node": "16.11.21",
-    "esbuild": "0.14.13",
+    "esbuild": "0.14.14",
     "jest": "27.4.7",
     "rollup": "2.66.1",
     "rollup-plugin-dts": "4.1.0",
