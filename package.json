@@ -36,7 +36,7 @@
     "esbuild": "0.14.39",
     "jest": "27.5.1",
     "rollup": "2.74.1",
-    "rollup-plugin-dts": "4.2.1",
+    "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-esbuild-transform": "1.4.0",
     "ts-jest": "27.1.5",
     "ts-standardx": "0.8.4",
