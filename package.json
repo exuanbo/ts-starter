@@ -35,7 +35,7 @@
     "@types/node": "16.11.43",
     "esbuild": "0.14.48",
     "jest": "28.1.2",
-    "rollup": "2.75.7",
+    "rollup": "2.76.0",
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-esbuild-transform": "1.4.0",
     "ts-jest": "28.0.5",
