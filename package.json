@@ -38,7 +38,7 @@
     "rollup": "2.76.0",
     "rollup-plugin-dts": "4.2.2",
     "rollup-plugin-esbuild-transform": "1.4.1",
-    "ts-jest": "28.0.6",
+    "ts-jest": "28.0.7",
     "ts-standardx": "0.8.4",
     "typescript": "4.7.4"
   }
