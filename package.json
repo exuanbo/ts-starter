@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/exuanbo/ts-starter#readme",
   "devDependencies": {
-    "@types/jest": "28.1.6",
+    "@types/jest": "28.1.7",
     "@types/node": "16.11.48",
     "esbuild": "0.15.3",
     "jest": "28.1.3",
